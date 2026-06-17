@@ -1,7 +1,5 @@
 from dotenv import load_dotenv
-
 load_dotenv()
-
 from src.graph import graph
 
 TOPICS = [
@@ -12,10 +10,8 @@ TOPICS = [
     "Cybersecurity threats and developments",
 ]
 
-
 def main():
     graph.invoke({"topics": TOPICS, "briefings": []})
-
 
 if __name__ == "__main__":
     main()
