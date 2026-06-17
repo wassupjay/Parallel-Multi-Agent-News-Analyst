@@ -2,6 +2,8 @@
 
 5 AI agents research and summarize 5 news topics simultaneously using LangGraph's Send API. Full briefing generated in under 10 seconds — no loops, no queues.
 
+![Parallel Multi-Agent News Analyst](parellel_news_agent.png)
+
 ## Architecture
 
 ```
